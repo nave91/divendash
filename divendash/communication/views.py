@@ -38,6 +38,8 @@ def sms(request):
     	if status:
     		if status == 'pl':
     			msg = play(num, body)
+    		if status == 'st':
+    			msg = 'Hang tight! we are getting things ready.'
     		else:
 	    		msg = str(status)
     	else:
