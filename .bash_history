@@ -45,3 +45,27 @@ pip install -r requirements.txt
 ls
 emacs dev.sh 
 exit
+ /usr/lib/python2.7/importlib/__init__.py
+emacs /usr/lib/python2.7/importlib/__init__.py
+emacs /usr/lib/python2.7/importlib/__init__.py
+emacs Vagrantfile 
+emacs requirements.txt 
+./dev.sh 
+source ./dev.sh 
+clear
+r
+r
+r
+r
+r
+r
+r
+r
+ls
+cd divendash/
+ls
+python manage.py makemigrations
+python manage.py migrate
+r
+r
+exit

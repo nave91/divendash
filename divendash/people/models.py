@@ -7,6 +7,9 @@ class Member(models.Model):
 	name = models.CharField(max_length=100)
 	phone = models.IntegerField(_("phone"), blank=True)
 
+	def __str__(self):
+		return str(name)+str(phone)
+
 class Address(models.Model):
     address_1 = models.CharField(_("address"), max_length=128)
     address_2 = models.CharField(_("address cont'd"), max_length=128, blank=True)

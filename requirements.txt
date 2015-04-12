@@ -1,3 +1,5 @@
 Django==1.8 # https://github.com/django/django - BSD
 django-localflavor # http://django-localflavor.readthedocs.org/en/latest/
 django-twilio # https://django-twilio.readthedocs.org/en/latest/
+django-dynamic-fixture # https://pypi.python.org/pypi/django-dynamic-fixture
+ipdb # https://pypi.python.org/pypi/ipdb
