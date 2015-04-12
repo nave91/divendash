@@ -12,6 +12,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.network "private_network", ip: "10.1.2.250"
   config.vm.network :forwarded_port, host: 4567, guest: 8000
 
+  config.vm.synced_folder ".", "/home/vagrant"
+  config.vm.synced_folder ".", "/vagrant", disabled: true
+
+  
   config.vm.provider "virtualbox" do |v|
     v.memory = 2048
     v.cpus = 2
