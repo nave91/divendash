@@ -1,6 +1,0 @@
-index
-|- verify
-|- start game
-|- playing
-|- done
-|- score
