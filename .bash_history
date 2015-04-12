@@ -38,3 +38,10 @@ rm .bashrc~
 ls
 git status
 exit
+ls
+source ./dev.sh 
+ls
+pip install -r requirements.txt 
+ls
+emacs dev.sh 
+exit
